@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+
+form input,
+form button {
+    display: block;
+    padding: 8px;
+    width: 400px;
+    margin: 10px auto;
+
+}
+
+form button {
+    color: aliceblue;
+    background-color: rgba(136, 136, 233, 0.884);
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: blueviolet;
+    border: 2px solid rgba(0, 0, 0, 0.767);
+}
+
+input:focus{
+    outline-color: blueviolet;
+}
+
+.messageSucess {
+    margin: 0 auto;
+    background-color: rgb(70, 228, 70);
+    padding: 10px;
+    color: aliceblue;
+    width: 400px;
+    display: none;
+}
+
+.messageError {
+    margin: 0 auto;
+    background-color: rgb(216, 14, 14);
+    padding: 10px;
+    color: aliceblue;
+    width: 400px;
+    display: none;
+}
